@@ -1,0 +1,230 @@
+header{
+  background-color: rgb(25,26,28);
+  height: 30px;
+  padding: 10px;
+}
+
+body{
+  background-color: rgb(25,26,28);
+  font-family: "Arial", sans-serif;
+  text-align: center;
+  margin: 0px;
+}
+
+ul{
+  list-style: none;
+}
+
+/* BACKGROUND */
+.triangulo-laranja{
+    border-top: 20px solid #fdad1a;
+    border-left: 50vw solid transparent;
+    border-right: 50vw solid transparent;
+}
+
+.triangulo-cinza{
+    border-top: 20px solid #191a1c;
+    border-left: 50vw solid transparent;
+    border-right: 50vw solid transparent;
+}
+
+
+/* CONFIGURAÇÕES DE TEXTO */
+.texto-rosa{
+	color: rgb(250,25,92);
+}
+
+.texto-laranja{
+	color: rgb(253,173,26);
+}
+
+.texto-branco{
+	color: white;
+}
+
+.texto-cinza{
+  color: rgb(25,26,28);
+}
+
+
+
+
+.descricaoServico{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.fundo-contato{
+	background-color: rgb(253,173,26);
+}
+
+
+
+.fundo-sobre-mim{
+	background-color: rgb(25,26,28);
+}
+
+.alinhaEsquerda{
+	text-align: left;
+	margin-left: 10px;
+}
+
+.margem-acima{
+  padding-top: 80px;
+}
+
+/* LINHAS */
+
+.linhasSiteTodo{
+  border-color: #a97311;
+  width:80%;
+}
+
+.linhaMidias{
+	width:60%;
+	border-color: #a97311;
+}
+
+.linhaSobreMim{
+  border-color: white;
+  width:80%;
+}
+
+
+.dadosContato{
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+
+.phone-color{
+	color: white;
+}
+
+.caixa-email{
+	border-style: solid;
+	border-color: white;
+	border-width: thin;
+	padding: 20px;
+  margin-left: 30%;
+  margin-right: 30%;
+}
+
+.iconeServico{
+  height: 200px;
+  border-style: solid;
+  border-color: white;
+  border-width: thick;
+  border-radius: 50%;
+  margin: 5px;
+}
+
+.servicos{
+  display: inline-flex;
+}
+
+.rodape{
+	background-color: rgb(25,26,28);
+	color: #F2FFFC;
+	clear: both;
+}
+
+/* ÍCONES DE REDES SOCIAIS */
+
+.fa {
+  text-align: center;
+  text-decoration: none;
+  margin: 50px 20px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.linksMidias{
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+.linksMidias > .fa {
+  padding: 20px;
+  width: 30px;
+  background: white;
+  color: rgb(253,173,26);
+}
+
+.linksSobreMim > .fa {
+  padding: 10px;
+  width: 16px;
+  background: #fdad1a;
+  color: rgb(25, 26, 28);
+}
+
+
+.nav-container{
+  height: 100%;
+  margin-left:30px;
+  margin-right:30px;
+}
+
+.left{
+  float: left;
+}
+
+.right{
+  float: right;
+}
+
+.home{
+  line-height: 30px;
+  height: 100%;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.home > img {
+    position: relative;
+    top: -25%;
+    height: 150%;
+}
+
+.menu-option{
+  line-height: 30px;
+  color: white;
+  height: 100%;
+  padding-left: 30px;
+  padding-right: 30px;
+  border: 1px solid transparent;
+}
+
+.menu-option:hover{
+  border:1px solid rgb(253,173,26);
+  line-height: 29px
+}
+
+/* BARRINHAS DE HABILIDADES */
+.barra-habilidades {
+  text-align: left;
+}
+
+.barra-habilidades > div {
+  padding: 1px;
+  height: 50px;
+  width: 500px;
+  margin: 10px;
+  background: white;
+  line-height: 50px;
+}
+
+.barra-habilidades > div > div {
+   background: rgb(129, 33, 82);
+}
+
+.barra-habilidades > div > div:before{
+  content: "\00a0  \00a0  \00a0 "
+}
+
+
+
+
